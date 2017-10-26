@@ -17,6 +17,7 @@ h1 {
   font-weight: normal;
   line-height: 1.3;
   text-shadow: 0 4px 4px rgba(0,0,0, .8);
+  font-family:'Fjalla One', sans-serif;
 }
 /*
  text-shadow: 0 1px 0 #ccc,
@@ -38,21 +39,48 @@ h2 {
   font-weight: normal;
   line-height: 1.1;
   margin: 0 0 .5em; /* 0 0 26px */
+  font-family: 'Cabin', sans-serif;
 }
 
 h3 {
-  font-size: 1.25em; /* 20px/16px  */
+  font-size: 1.75em; /* 20px/16px  */
   color: #48525c;
   line-height: 1.2;
   margin-bottom: 1.7em; /* 34px */
   text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
 }
 
 img {
   max-width: 100%;
   margin-bottom: 20px;
   border-radius: 10px;
+font-family: 'Rubik', sans-serif;
+}
 
+.span {
+    margin-right: 30px;
+}
+
+.profile-image {
+  border-radius: 100%;
+  -webkit-transition: all 1.5s ease;
+     -moz-transition: all 1.5s ease;
+       -o-transition: all 1.5s ease;
+      -ms-transition: all 1.5s ease;
+          transition: all 1.5s ease;
+}
+.profile-image:hover {
+  -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    border-radius: 100px;
 }
 
 a.img:link {
@@ -149,7 +177,7 @@ a:hover {
 }
 
 a:active {
-  color: lightcoral;
+  color: forestgreen;
 }
 
 /* Main Styles --------------------- */
@@ -238,6 +266,7 @@ a:active {
   box-shadow: 0px 15px 20px -12px rgba(0,0,0, .8), inset 0 0px 10px 3px rgba(0,0,0, .8);
   border-radius: 25px;
 }
+
 
 .arrow {
   width: 50px;
